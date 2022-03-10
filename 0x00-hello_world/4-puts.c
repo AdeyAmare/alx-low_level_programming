@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Entry point prints "Programming is like building a multilingual puzzle
- * returns 0 if exit is successful, non-zero otherwise
+ * main - Entry point prints the statement in quotes
+ *  returns  a zero if exit is successful, non-zero otherwise
  */
 
 int main(){
