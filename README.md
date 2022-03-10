@@ -1,1 +1,1 @@
-This contains the source code
+This contains the directory for project C, Hello World.
