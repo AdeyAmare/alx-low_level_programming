@@ -2,10 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 
-/** 
- * main - check if a random number n is positive or negative
- *
- * Return: zero for successful outcome non-zero otherwise
+/**
+ * main - assigns a random number to n when it runs
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
