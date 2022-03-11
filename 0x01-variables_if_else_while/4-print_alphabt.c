@@ -2,11 +2,11 @@
 
 /**
  * main - prints the alphabet without q and e
- * Return - 0 (Always Success)
+ * Return: 0 (Always Success)
  */
 int main(void)
 {
-	char ch;
+	char ch = 'a';
 
 	while (ch <= 'z')
 	{
