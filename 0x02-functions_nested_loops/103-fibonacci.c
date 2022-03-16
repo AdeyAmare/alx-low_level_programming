@@ -12,6 +12,7 @@ int main(void)
 	sum = 0;
 	i = 1;
 	j = 2;
+	k = 0;
 
 	while (k < 4000000)
 	{
