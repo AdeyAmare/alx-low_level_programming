@@ -4,7 +4,7 @@
  * print_diagonal - prints a diagonal line to the terminal
  * @n: the numebr of times / should be printed
  */
-void print_diagonal(int ni)
+void print_diagonal(int n)
 {
 	int i, j;
 
