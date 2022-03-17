@@ -14,8 +14,10 @@ void more_numbers(void)
 		{
 			tens = j / 10;
 			units = j % 10;
-			if (j >= 10)
+			if (j > 9)
+			{
 				_putchar(tens + '0');
+			}
 			_putchar(units + '0');
 		}
 		_putchar('\n');
