@@ -6,7 +6,7 @@
  * @str: the character to print
  * Return: void
  */
-void puts(char *str)
+void puts2(char *str)
 {
 	int i;
 
