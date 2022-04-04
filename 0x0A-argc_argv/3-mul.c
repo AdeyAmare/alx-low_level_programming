@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/** main - multiplies two numbers
- * @argc: number of arguments
- * @argv: array of arguments
- * Return: 0 Success 1 Error
+/**
+ * main - multiplies two numbers
+ * @argc: number of command line arguments
+ * @argv: array that contains the program command line arguments
+ * Return : 0 (Always success)
  */
 int main(int argc, char *argv[])
 {
@@ -15,7 +16,10 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	product = atoi(argv[1]) * atoi(argv[2]);
-	printf("%d\n", product);
+	else
+	{
+		product = atoi(argv[1]) * atoi(argv[2]);
+		printf("%d\n", product);
+	}
 	return (0);
 }
