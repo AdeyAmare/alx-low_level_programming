@@ -15,9 +15,12 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
+
 	num = atoi(argv[1]);
 	num1 = atoi(argv[2]);
 	product = num * num1;
+
 	printf("%d\n", product);
+
 	return (0);
 }
